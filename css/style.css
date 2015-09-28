@@ -52,7 +52,7 @@ nav ul li a{
 }
 
 #content li{
-	width:35%;
+	width:35%; float:left;
 }
 
 #product-thumb{
