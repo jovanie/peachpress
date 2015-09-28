@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*colour pallete 
+#7294D4 blue
+#C6CDF7 purple
+#FBA67D orange
+#E6A0C4 pink
+#D9A59A brwn orng
+
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+html {
+}
+
+body{
+text-align:center;
+width:950px;
+margin: 0 auto;
+background-image: url("http://www.dalvertu.com/peachpress/images/background.png");
+background-attachment: fixed;
+background-repeat: repeat;
+}
+
+header {
+	height:200px;
+	z-index:30;
+	position:absolute;
+	width:950px;
+	float:left;
+}
+
+#sitelogo {
+float:left;
+}
+#logoimg {
+margin-top:5px;
+margin-left:30px;
+height:180px;
+width:auto;
+
+}
+
+h7 {
+font-family: 'Oswald', sans-serif;
+font-weight:500;
+font-size:100px;
+width:720px;
+float:left;
+margin-top:20px;
+margin-bottom:0;
+text-decoration:none;
+}
+.banner {
+margin-top:-20px;
+}
+.banner a {
+    color: black;
+    text-decoration: none;
+}
+
+.banner h7 a:hover {
+     color:black; 
+     text-decoration:none; 
+}
+
+h2 {
+font-family: 'Oswald', sans-serif;
+font-weight:300;
+}
+
+h6 {
+top:0;
+margin:0;
+margin-top:10px;
+}
+
+#navbar {
+
+width:77%;
+float:left;
+z-index:999;
+margin-top:-10px;
+margin-bottom:10px;	
+}
+#primary_nav_wrap
+{
+width:700px;
+margin-left:auto;
+margin-right:auto;
+z-index:999;
+
+	
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;	
+	margin:0;
+	padding:0;
+	margin-top:0;
+	
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:black;
+	text-decoration:none;
+	font-weight:700;
+	font-size:16px;
+	line-height:32px;
+	padding:0 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight:600;
+	color:#7294D4;
+	
+}
+
+#primary_nav_wrap ul li{
+
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	width:130px;
+}
+
+#primary_nav_wrap ul li.current-menu-item{
+
+}
+
+#primary_nav_wrap ul li:hover{
+	background:#C6CDF7;
+	
+}
+
+#primary_nav_wrap ul ul{
+	
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+	
+	
+}
+
+#primary_nav_wrap ul ul li{
+	float:none;
+	width:130px;
+	
+	
+}
+
+#primary_nav_wrap ul ul a{
+	line-height:120%;
+	padding:10px 15px;
+	font-weight:300;
+	
+}
+
+#primary_nav_wrap ul ul ul{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul{
+	display:block;
+}
+
+#spaceb4 {
+width:100%;
+padding-bottom:200px;
+float:left;
+background-color:white;
+}
+
+
+article {
+background-color:white;
+float:left;
+height:100%;
+margin-left:auto;
+margin-right:auto;
+width:950px;
+z-index:888;
+
+}
+
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+#product {
+width:250px;
+float:left;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+padding-left:50px;
+}
+
+#product img {
+
+}
+
+#product img,h4{
+position:relative;
+font-size:90%;
+}
+
+
+
+
+.imgframe {
+ background:#ffffff;
+    padding:6px;
+    border:1px solid white; 
+	
+}
+
+footer { 
+font-family: 'Crete Round', non-serif;
+font-weight:300;
+font-size:14px;
+background-color:white;
+min-height:200px;
+bottom:0;
+float:left;
+width:100%;
+}
+footer tr td a{
+text-decoration:none;
+color:black;
+}
+
+.tables {
+width:450px;
+float:left;
+}

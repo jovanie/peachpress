@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Champagne;
+  src: url("http://www.dalvertu.com/fonts/champagne_limousines/Champagne & Limousines Bold.ttf") format("truetype");
+  font-weight:bold;
+  font-style:normal;
+}
+@font-face {
+font-family: Champagne;
+src: url("http://dalvertu.com/fonts/champagne_limousines/Champagne & Limousines.ttf") format("truetype");
+   font-weight:normal;
+   font-style:normal;
+}
+
+header {
+  min-width:825px;
+  height:40px;
+  z-index:700;
+  position:fixed;
+  width:100%;
+  background-color:white;
+  left:0;
+  top:0;
+  text-align:center;
+}
+
+.headban {
+  z-index:777;
+  position:absolute;
+  float:left;
+  padding-top:5px;
+  padding-left:15px;
+  padding-bottom:10px;
+}
+.headban a {
+  font-family:Champagne;
+  font-weight:bold;
+  font-size:30px;
+  color:black;
+  text-decoration:none;
+}
+
+nav {
+  width:700;
+  z-index:999;	
+  font-family:Vani;
+  padding-top:10px;
+  text-align:center;
+  list-style:none;
+  
+}
+
+nav li {
+   
+}
+
+nav ul
+{
+  list-style:none;
+  position:relative;	
+  margin:0;
+  padding:0;
+  margin-top:0;
+  
+	
+}
+
+nav ul a
+{
+  display:block;
+  color:#74767F;
+  line-height:32px;
+  padding:0 0;
+  text-decoration:none;
+	
+}
+
+nav ul li{
+  display:inline-block;
+  position:relative;
+  margin:0;
+  padding:0;
+  width:100px;
+  
+}
+
+nav ul li.current-menu-item{
+
+}
+
+nav ul li a:hover{
+    color:black;
+    text-decoration:underline;
+	
+}
+
+nav ul ul{
+  display:none;
+  position:absolute;
+  top:95%;
+  left:0;
+  background:#fff;
+  padding:0;
+  
+}
+
+nav ul ul li{
+	float:none;
+	width:100px;
+}
+
+nav ul ul a{
+	line-height:120%;
+	padding:10px 15px;
+	font-weight:300;
+}
+
+nav ul ul ul{
+	top:0;
+	left:100%
+}
+
+nav ul li:hover > ul{
+	display:block;
+}
+
+.cart {
+top:0;
+right:0;
+padding-right:20px;
+margin-top:-5px;
+position:absolute;
+float:right;
+ }
+ .cart a {color:black; text-decoration:none; }
+ .cart a:hover {text-decoration:underline; }

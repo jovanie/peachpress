@@ -1,0 +1,299 @@
+@import url('header.css');
+@charset "UTF-8";
+/* CSS Document */
+
+/*colour pallete 
+#7294D4 blue
+#C6CDF7 purple
+#FBA67D orange
+#E6A0C4 pink
+#D9A59A brwn orng
+
+
+*/
+@font-face {
+	font-family: Couture;
+	src: url("f/couture-bld.otf") format("opentype");
+    font-weight:bold;
+    font-style:normal;
+}
+@font-face {
+	font-family: Vani;
+	src: url("f/vani.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(https://www.google.com/fonts/specimen/Lora);
+
+
+html {
+}
+
+body{
+text-align:center;
+width:950px;
+margin: 0 auto;
+background-image: url("http://www.dalvertu.com/peachpress/images/background1.png");
+background-attachment: fixed;
+background-repeat: repeat;
+font-family: Vani;
+}
+
+
+
+.content {
+background-color:white;
+float:left;
+width:100%;
+z-index:0;
+
+}
+
+#Collections {
+width:100%;
+margin-left:3px;
+}
+
+#leftcollection img {
+float:left;
+height:460px;
+width:230px;
+}
+
+
+#midcollection img {
+float:left;
+height:201.25px;
+width:460px;
+padding-left:10px;
+padding-bottom:60px;
+}
+
+#rightcollection img{
+float:none;
+height:460px;
+width:230px;
+
+}
+
+#spaceb4{
+padding-top:5px;
+background-color:white;
+float:left;
+width:950px;
+}
+
+article {
+background-color:white;
+float:left;
+height:100%;
+margin-left:auto;
+margin-right:auto;
+width:950px;
+z-index:888;
+
+}
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+.product {
+width:850px;
+min-height:400px;
+}
+#product {
+font-family:Vani;
+font-size:14px;
+}
+.product-thumb img {
+margin-left:10px;
+max-width:400px;
+float:left;
+position:inherit;
+height:400px;
+padding-right:10px;
+}
+
+.product-content {
+max-width:380px;
+float:left;
+height:380px;
+}
+
+.product-desc {
+margin-left:20px;
+margin-right:20px;
+}
+
+.add_to_cart {
+margin-left:10px;
+	width:100px;
+	height:40px;
+}
+
+#producth a {
+    color: black;
+    text-decoration: none;
+}
+
+#producth {
+width:225px;
+height:225px;
+float:left;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+padding-left:10px;
+padding-bottom:90px;
+}
+
+#producth img {
+width:200px;
+height:200px;
+}
+
+#producth img,h4{
+position:relative;
+font-size:80%;
+}
+
+#producth h4{
+font-family: vani;}
+
+#product {
+width:250px;
+float:left;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+padding-left:50px;
+}
+
+#product a {
+    color: black;
+    text-decoration: none;
+}
+
+#product img {
+
+}
+
+#product img,h4{
+position:relative;
+font-size:90%;
+}
+
+.imgframe {
+ background:#ffffff;
+    padding:6px;
+    border:1px solid white; 
+	
+}
+
+.Categories {
+position:initial;
+float:none;
+padding-bottom:20px;
+min-width:950px;
+left:0;
+}
+
+.Categories  img{
+	height:125px;
+	width:auto;
+}
+
+.imgframe {
+ background:#ffffff;
+    padding:6px;
+    border:1px solid white; 
+	
+}
+
+footer { 
+font-family: 'Oswald', sans-serif;
+font-weight:300;
+font-size:14px;
+background-color:white;
+min-height:200px;
+bottom:0;
+float:left;
+width:100%;
+}
+footer tr td a{
+text-decoration:none;
+color:black;
+}
+
+.tables {
+width:450px;
+float:left;
+}
+
+/* Cart CSS */
+.view-cart {
+
+}
+.view-cart ul {
+list-style:none;
+width:900px;
+text-align:left;
+margin-left:50px;
+}
+
+.cart-itm {
+float:left;
+width:775px;
+}
+
+.p-price {
+
+}
+
+.product-info {
+
+}
+
+.p-qty {
+
+}
+
+.cart-item-left {
+float:left;
+width:50px;
+position:relative;
+padding-right:15px;
+}
+
+.remove-itm a{
+color:red;
+font-size:40px;
+text-decoration:none;
+}
+
+.cart-item-mid {
+float:left;
+width:500px;
+position:relative;
+}
+
+.cart-item-mid img {
+float:left;
+padding-right:15px;
+}
+
+.cart-item-right {
+float:right;
+width:75px;
+position:relative;
+}
+
+.totaltext {
+padding-top:30px;
+float:left;
+width:950px;
+text-align:center;
+}
+.totaltext {text-align:right; margin-left: -80px;line-height:50%;}
