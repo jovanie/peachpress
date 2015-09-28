@@ -43,3 +43,10 @@ nav ul li a{
 	float:right;
 	display:inline-block;
 }
+#content {
+	left:0;
+	width:95%;
+	margin-right: auto;
+	margin-left: auto;
+}
+

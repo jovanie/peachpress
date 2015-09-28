@@ -14,7 +14,7 @@
                     {
             			echo '<li>';
             			echo '<form method="post" action="php/cart_update.php">';
-            			echo '<div class="product-thumb"><img src="img/products/'.$obj->product_img_name.'"></div>';
+            			echo '<div class="product-thumb"><img src="img/products/'.$obj->product_code.'.jpg"></div>';
                         echo '<h3>'.$obj->product_name.'</h3>';
                         echo '<div class="product-desc">'.$obj->product_desc.'</div>';
                         echo '<div class="product-info">';
