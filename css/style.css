@@ -52,11 +52,10 @@ nav ul li a{
 }
 
 #cd-gallery-items {
-	text-decoration: none;
 	list-style-type:none;
 }
 #cd-gallery-items li{
-	text-decoration: none;
+	list-style-type:none;
 }
 #content li{
 	width:22%; float:left;
