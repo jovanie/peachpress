@@ -54,10 +54,23 @@ nav ul li a{
 #content li{
 	width:22%; float:left;
 	padding-left:1%;
+	text-decoration: none;
 }
 
 #product-thumb{
+margin-right: auto;
+margin-left: auto;
+}
 
+#content li h3 {
+margin-right: auto;
+margin-left: auto;
+}
+
+#product-desc {
+	
+margin-right: auto;
+margin-left: auto;
 }
 
 .product-thumb img{
