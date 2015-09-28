@@ -51,10 +51,14 @@ nav ul li a{
 	margin-left: auto;
 }
 
+#content ul {
+	
+	text-decoration: none;
+}
 #content li{
 	width:22%; float:left;
 	padding-left:1%;
-	text-decoration: none;
+
 	text-align: center;
 }
 
