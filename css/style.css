@@ -54,6 +54,9 @@ nav ul li a{
 #cd-gallery-items {
 	text-decoration: none;
 }
+#cd-gallery-items li{
+	text-decoration: none;
+}
 #content li{
 	width:22%; float:left;
 	padding-left:1%;
