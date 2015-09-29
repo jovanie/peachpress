@@ -36,7 +36,6 @@ include_once("config.php");
 			echo '<img src="img/products/'.$product_code.'.jpg">';
 			echo '<img src="img/products/'.$product_code.'.jpg">';
 			echo '<img src="img/products/'.$product_code.'.jpg">';
-			echo '<img src="img/products/'.$product_code.'.jpg" height="100px" width="100px">';
 			echo ''.$obj->product_desc.'';
 			echo '</div>';
 			echo '<div class="cart-item-right">';
