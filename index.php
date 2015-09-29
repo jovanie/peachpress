@@ -4,10 +4,20 @@
 		<ul id="cd-gallery-items" class="cd-container">
 
         <script>
-            var $links = $('.productItem li a');
-            $links.click(function(){
-               $links.removeClass('selected');
-               $(this).addClass('selected');
+            //save class name so it can be reused easily
+            //if I want to change it, I have to change it one place
+            var classHighlight = 'selected'; 
+
+            //.click() will return the result of $('.thumbnail')
+            //I save it for future reference so I don't have to query the DOM again
+            var $thumbs = $('.productItem').click(function(e) {
+                e.preventDefault();
+                //run removeClass on every element
+                //if the elements are not static, you might want to rerun $('.thumbnail')
+                //instead of the saved $thumbs
+                $thumbs.removeClass(classHighlight);
+                //add the class to the currently clicked element (this)
+                $(this).addClass(classHighlight);
             });
         </script>
 
