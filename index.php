@@ -4,7 +4,7 @@
 		<ul id="cd-gallery-items" class="cd-container">
 
         <script>
-            var $links = $('.productItem a');
+            var $links = $('.productItem li a');
             $links.click(function(){
                $links.removeClass('selected');
                $(this).addClass('selected');
