@@ -1,17 +1,16 @@
 <?php
 session_start();
-include_once("config.php");
+include_once("php/config.php");
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 <title>Peach Press</title>
-<link rel="stylesheet" href="http://www.dalvertu.com/peachpress/style.css">
 </head>
 
 <body>
-<?php include '../header.php';?>
+<?php include 'header.php';?>
 
 <div class="content"> 
 <div id="spaceb4">
@@ -39,7 +38,7 @@ include_once("config.php");
             echo '<div class="product-info">';
 			echo '<h3>'.$obj->product_name.' (Code :'.$product_code.')</h3> ';
 			echo '<div class="cart-item-mid">';
-			echo '<img src="../../img/products/'.$obj->product_code.'.jpg" height="100px" width="100px"></a>';
+			echo '<img src="img/products/'.$obj->product_code.'.jpg" height="100px" width="100px"></a>';
 			echo ''.$obj->product_desc.'';
 			echo '</div>';
 			echo '<div class="cart-item-right">';
