@@ -28,6 +28,6 @@ include_once("php/config.php");
 				</nav>
 			
 				<div id="dropCart">
-					<a href-"#"><i id="cartimg" class="fa fa-shopping-cart fa-lg"></i></a>
+					<a href-"view_cart.php"><i id="cartimg" class="fa fa-shopping-cart fa-lg"></i></a>
 				</div>
 			</div>
