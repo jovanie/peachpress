@@ -43,7 +43,7 @@ include_once("config.php");
 			
 			echo '<div class="p-price">ea. '.$currency.$obj->price.'<p></p></div>';
 			echo '<div class="p-qty">Qty : '.$cart_itm["qty"]. '</div>';
-            echo '<span class="remove-itm"><a href="cart_update.php?removep='.$cart_itm["code"].'&return_url='.$current_url.'">&times;</a></span>';
+            echo '<span class="remove-itm"><a href="php/`cart_update.php?removep='.$cart_itm["code"].'&return_url='.$current_url.'">&times;</a></span>';
 			
 			echo '</div>';
             echo '</li>';
