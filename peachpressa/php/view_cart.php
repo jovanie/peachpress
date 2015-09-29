@@ -7,16 +7,11 @@ include_once("config.php");
 <html>
 <head>
 <title>Peach Press</title>
-<link rel="stylesheet" href="http://www.dalvertu.com/peachpress/style.css">
 </head>
 
 <body>
-<?php include '../header.php';?>
+<?php include 'header.php';?>
 
-<div class="content"> 
-<div id="spaceb4">
-<p>&nbsp;</p>
-</div>
 
 <div id="products-wrapper">
  <h2>View Cart</h2>
@@ -37,16 +32,14 @@ include_once("config.php");
 		   
 		    echo '<li class="cart-itm">';
             echo '<div class="product-info">';
-			echo '<h3>'.$obj->product_name.' (Code :'.$product_code.')</h3> ';
-			echo '<div class="cart-item-mid">';
-			echo '<img src="product_img/'.$product_code.'.jpg" height="100px" width="100px"></a>';
+			echo '<h3>'.$obj->product_name.' (Code : '.$product_code.')</h3> ';
 			echo ''.$obj->product_desc.'';
 			echo '</div>';
 			echo '<div class="cart-item-right">';
 			
 			echo '<div class="p-price">ea. '.$currency.$obj->price.'<p></p></div>';
 			echo '<div class="p-qty">Qty : '.$cart_itm["qty"]. '</div>';
-            echo '<span class="remove-itm"><a href="cart_update.php?removep='.$cart_itm["code"].'&return_url='.$current_url.'">&times;</a></span>';
+            echo '<span class="remove-itm"><a href="php/`cart_update.php?removep='.$cart_itm["code"].'&return_url='.$current_url.'">&times;</a></span>';
 			
 			echo '</div>';
             echo '</li>';
