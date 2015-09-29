@@ -12,11 +12,6 @@ include_once("php/config.php");
 <body>
 <?php include 'header.php';?>
 
-<div class="content"> 
-<div id="spaceb4">
-<p>&nbsp;</p>
-</div>
-
 <div id="products-wrapper">
  <h2>View Cart</h2>
  <div class="view-cart">
@@ -38,7 +33,7 @@ include_once("php/config.php");
             echo '<div class="product-info">';
 			echo '<h3>'.$obj->product_name.' (Code :'.$product_code.')</h3> ';
 			echo '<div class="cart-item-mid">';
-			echo '<img src="img/products/'.$product_code.'.jpg" height="100px" width="100px"></a>';
+			echo '<img src="img/products/'.$product_code.'.jpg"></a>';
 			echo ''.$obj->product_desc.'';
 			echo '</div>';
 			echo '<div class="cart-item-right">';
