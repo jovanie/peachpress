@@ -7,16 +7,11 @@ include_once("config.php");
 <html>
 <head>
 <title>Peach Press</title>
-<link rel="stylesheet" href="http://www.dalvertu.com/peachpress/style.css">
 </head>
 
 <body>
 <?php include 'header.php';?>
 
-<div class="content"> 
-<div id="spaceb4">
-<p>&nbsp;</p>
-</div>
 
 <div id="products-wrapper">
  <h2>View Cart</h2>
@@ -37,7 +32,8 @@ include_once("config.php");
 		   
 		    echo '<li class="cart-itm">';
             echo '<div class="product-info">';
-			echo '<h3>'.$obj->product_name.' (Code : '.$product_code.')</h3> <img src="img/products/'.$product_code.'.jpg" height="100px" width="100px"></a>';
+			echo '<h3>'.$obj->product_name.' (Code : '.$product_code.')</h3> ';
+			echo '<img src="img/products/'.$product_code.'">';
 			echo '<img src="img/products/'.$product_code.'.jpg" height="100px" width="100px"></a>';
 			echo ''.$obj->product_desc.'';
 			echo '</div>';
