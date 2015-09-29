@@ -34,7 +34,7 @@ include_once("php/config.php");
 			echo '<h3>'.$obj->product_name.' (Code :'.$product_code.')</h3> ';
 			echo '<div class="cart-item-mid">';
 			echo 'img/products/'.$product_code.'.jpg';
-			echo '<img src="img/products/'.$product_code.'.jpg"></a>';
+			echo '<img src="img/products/'.$obj->product_code.'.jpg"></a>';
 			echo ''.$obj->product_desc.'';
 			echo '</div>';
 			echo '<div class="cart-item-right">';
