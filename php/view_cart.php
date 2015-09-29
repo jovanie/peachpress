@@ -37,8 +37,7 @@ include_once("config.php");
 		   
 		    echo '<li class="cart-itm">';
             echo '<div class="product-info">';
-			echo '<h3>'.$obj->product_name.' (Code :'.$product_code.')</h3> ';
-			echo '<div class="cart-item-mid">';
+			echo '<h3>'.$obj->product_name.' (Code : '.$product_code.')</h3> <img src="img/products/'.$product_code.'.jpg" height="100px" width="100px"></a>';
 			echo '<img src="img/products/'.$product_code.'.jpg" height="100px" width="100px"></a>';
 			echo ''.$obj->product_desc.'';
 			echo '</div>';
