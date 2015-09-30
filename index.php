@@ -29,11 +29,15 @@
                 if ($results) { 
                     while($obj = $results->fetch_object())
                     {
+
                         echo '<li class="productItem"><form method="post" action="php/cart_update.php">';
                         echo '<a href="#">';
             			echo '<div class="productImg"><img src="img/products/'.$obj->product_code.'.jpg"></div>';
                         echo '<h3>'.$obj->product_name.'</h3>';
                             echo '<div class="productDesc">'.$obj->product_desc.'</div>';
+                            echo '<select name="size">'
+                            if($obj->XSMALL =! "")echo "<option value=\"XSMALL\">"XSMALL"</option>";
+                            echo '</select>'
                             echo '<div class="productInfo">';
                             echo '<p>&nbsp;</p>Price '.$currency.$obj->price.' | ';
                             echo '<button class="add_to_cart">Add To Cart</button>';
