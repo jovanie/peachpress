@@ -33,11 +33,10 @@ include_once("php/config.php");
            $product_code = $cart_itm["code"];
 		   $results = $mysqli->query("SELECT product_name,product_desc, price FROM products WHERE product_code='$product_code' LIMIT 1");
 		   $obj = $results->fetch_object();
-		   $imcode = $obj->product_code;
 		   
 		    echo '<li class="cart-itm">';
             echo '<div class="product-info">';
-            echo '<img src="img/products/'.$product_code.'.jpg" height="100px" width="100px"></a>'
+			echo '<img src="img/products/'.$product_code.'.jpg>';
 			echo '<h3>'.$obj->product_name.' (Code :'.$product_code.')</h3> ';
 			echo '<div class="cart-item-mid">';
 			echo '<h2>img/products/'.$imcode.'</h2>';
