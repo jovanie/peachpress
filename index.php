@@ -25,13 +25,15 @@
             	$current_url = base64_encode($url="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
                 
             	$results = $mysqli->query("SELECT * FROM products ORDER BY product_code ASC");
-            	
+            	$imgCode = .$obj->product_code;
+
                 if ($results) { 
                     while($obj = $results->fetch_object())
                     {
                         echo '<li class="productItem"><form method="post" action="php/cart_update.php">';
                         echo '<a href="#">';
-            			echo '<div class="productImg"><img src="img/products/'.$obj->product_code.'.jpg"></div>';
+            			echo '<div class="productImg"><img src="img/products/'.$imgCode.'.jpg"></div>';
+                        echo 'img/products/'.$imgCode.'';
                         echo '<h3>'.$obj->product_name.'</h3>';
                             echo '<div class="productDesc">'.$obj->product_desc.'</div>';
                             echo '<div class="productInfo">';
