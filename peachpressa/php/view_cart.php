@@ -27,6 +27,7 @@ include_once("config.php");
 		foreach ($_SESSION["products"] as $cart_itm)
         {
            $product_code = $cart_itm["code"];
+           $imgCode = .$obj->product_code;
 		   $results = $mysqli->query("SELECT product_name,product_desc, price FROM products WHERE product_code='$product_code' LIMIT 1");
 		   $obj = $results->fetch_object();
 		   
