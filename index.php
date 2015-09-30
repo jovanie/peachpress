@@ -36,7 +36,10 @@
                         echo '<h3>'.$obj->product_name.'</h3>';
                             echo '<div class="productDesc">'.$obj->product_desc.'</div>';
                             echo '<select name="size">'
-                            if($obj->XSMALL =! "")echo "<option value=\"XSMALL\">"XSMALL"</option>";
+                            if($obj->XSMALL =! '')
+                                echo "<option value=\"XSMALL\">"XSMALL"</option>";
+                            else if($obj->SMALL =! '')
+                                echo "<option value=\"XSMALL\">"SMALL"</option>";
                             echo '</select>'
                             echo '<div class="productInfo">';
                             echo '<p>&nbsp;</p>Price '.$currency.$obj->price.' | ';
